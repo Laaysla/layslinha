@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/escola2.css">
+    <title>Papelaria Virtual</title>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1>Papelaria Virtual</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#horário de Funcionamento">Horário</a></li>
+                <li><a href="#pagamentos">Pagamento</a></li>
+                <li><a href="#carrinho">Carrinho</a></li>
+                <li><a href="#endereco">Endereço de Entrega</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="produtos">
+        <h2>Pesquisar:</h2>
+        <input type="text" id="pesquisa" placeholder="Pesquisar produto...">
+        <div id="produtosContainer">
+        </div>
+    </section>
+
+
+   <!-- Seção Principal -->
+   <main>
+    <section id="home">
+        <h2>Bem-vindo à nossa Loja!</h2>
+        <p>Encontre tudo o que precisa para a volta às aulas.</p>
+        <button id="verProdutos">Ver Produtos</button>
+    </section>
+
+    <section id="produtos">
+
+        <div class="produto"  data-produto="bolsas">
+            <img src="img/mochila.jpg" alt="Bolsa Escolar">
+            <h3>Bolsa Escolar</h3>
+            <p>Preço: De R$ 50,00 até R$ 100,00</p>
+        </div>
+
+        <div class="produto"  data-produto="cadernos">
+            <img src="img/caderno.webp" alt="Caderno">
+            <h3>Cadernos</h3>
+            <p>Preço: De R$ 12,00 até R$: 15,00</p>
+        </div>
+        <div class="produto" data-produto="cadernoad">
+            <img src="img/cad.avif" alt="caderno adicional">
+            <h3>Cadernos Adicionais</h3>
+            <p>Preço: De R$ 10,50 tudo</p>
+        </div>  
+        <div class="produto" data-produto="canetas">
+            <img src="img/canetas.webp" alt="Caneta Esferográfica">
+            <h3>Caneta Esferográfica</h3>
+            <p>Preço: De R$ 2,00 até R$: 12,50</p>
+        </div>
+        <div class="produto" data-produto="canetases">
+            <img src="img/can.webp" alt="Caneta Especiais">
+            <h3>Caneta Especiais</h3>
+            <p>Preço: De R$ 10,50 até R$: 15,50</p>
+        </div>
+        <div class="produto" data-produto="lapis">
+            <img src="img/lapis.webp" alt="Lápis de Grafite">
+            <h3>Lápis de Grafite</h3>
+            <p>Preço: De R$ 1,00 até R$: 1,50</p>
+        </div>
+        <div class="produto" data-produto="borrachas">
+            <img src="img/borrachas.webp" alt="Borracha">
+            <h3>Borracha</h3>
+            <p>Preço: De R$ 1,50 até R$ 2,00</p>
+        </div>
+        <div class="produto" data-produto="papelaria">
+            <img src="img/folhas.jfif" alt="papelaria">
+            <h3>Papelaria</h3>
+            <p>Preço: De R$ 8,00 até R$ 15,00</p>
+        </div>
+        <div class="produto" data-produto="papelariaad">
+            <img src="img/papelaria.webp" alt="papelaria adicional">
+            <h3>Papelaria Adicionais</h3>
+            <p>Preço: De R$ 1,50 até R$ 8,50</p>
+        </div>  
+        <div class="produto" data-produto="marcadores">
+            <img src="img/marca.webp" alt="Marcador de Texto">
+            <h3>Marcador de Texto</h3>
+            <p>Preço: De R$ 4,00 até R$: 20,00</p>
+        </div>
+        <div class="produto" data-produto="canetinhas">
+            <img src="img/canetinhas.webp" alt="Canetinhas">
+            <h3>Canetinhas</h3>
+            <p>Preço: De R$ 10,00 até R$ 18,00 </p>
+        </div>
+        <div class="produto" data-produto="lapisColoridos">
+            <img src="img/lapis de cor.webp" alt="Lápis de Cor">
+            <h3>Lápis de Cor</h3>
+            <p>Preço: De R$ 10,50 até R$ 25,00</p>
+        </div>
+        <div class="produto" data-produto="réguas">
+            <img src="img/regua.webp" alt="Régua">
+            <h3>Régua e Instrumentos de Medição</h3>
+            <p>Preço: De  R$ 3,00 até R$ 5,00</p>
+        </div>
+        <div class="produto" data-produto="estojos">
+            <img src="img/estojo.jpg" alt="Estojo">
+            <h3>Estojo</h3>
+            <p>Preço: De R$ 12,00 até R$ 30,00</p>
+        </div>
+        <div class="produto" data-produto="apontadores">
+            <img src="img/apontador.webp" alt="Apontador">
+            <h3>Apontador</h3>
+            <p>Preço: De R$ 2,50 até R$ 3,50</p>
+        </div>
+        <div class="produto" data-produto="lapiseiras">
+            <img src="img/lapiseira.webp" alt="Lapiseira">
+            <h3>Lapiseira</h3>
+            <p>Preço: De R$ 6,00 até R$ 7,00</p>
+        </div>
+        <div class="produto" data-produto="tesouras">
+            <img src="img/tesoura.webp" alt="Tesoura">
+            <h3>Tesouras e Estilete</h3>
+            <p>Preço: De R$ 5,00 até R$ 7,00</p>
+        </div>
+        <div class="produto" data-produto="colas">
+            <img src="img/colas.jfif" alt="Cola">
+            <h3>Colas</h3>
+            <p>Preço: De R$ 4,00 até R$ 15,00</p>
+        </div>
+        <div class="produto" data-produto="organização">
+            <img src="img/pastas.jpg" alt="Pasta">
+            <h3>Organização</h3>
+            <p>Preço: De R$ 5,00 até R$ 12,00</p>
+        </div>
+        <div class="produto" data-produto="agendas">
+            <img src="img/agendas.webp" alt="Agenda">
+            <h3>Agenda</h3>
+            <p>Preço: De R$ 20,00 até R$ 25,00</p>
+        </div>
+        <div class="produto" data-produto="ficharios">
+            <img src="img/fichario.jfif" alt="Fichário">
+            <h3>Fichário</h3>
+            <p>Preço: De R$ 18,00 até R$ 22,00</p>
+        </div>
+        <div class="produto" data-produto="Fitas">
+            <img src="img/adeft.jpg" alt="Fitas">
+            <h3>Fitas</h3>
+            <p>Preço: De R$ 2,00 até R$ 10,00</p>
+        </div>
+        <div class="produto" data-produto="Fitases">
+            <img src="img/fit.jfif" alt="Fitas Especiais">
+            <h3>Fitas Especiais</h3>
+            <p>Preço: De R$ 2,00 até R$ 10,00</p>
+        </div>
+        <div class="produto" data-produto="Calculadoras">
+            <img src="img/calculadora.webp" alt="calculadoras">
+            <h3>Calculadoras</h3>
+            <p>Preço: De R$ 7,50 até R$ 15,00</p>
+        </div>   
+        <div class="produto" data-produto="Materiais">
+            <img src="img/outros.webp" alt="outros materiais">
+            <h3>Outros Materiais</h3>
+            <p>Preço: De R$ 9,50 até R$ 19,80</p>
+        </div>
+        <div class="produto" data-produto="tecnologia">
+            <img src="img/tec.jfif" alt="tecnologia">
+            <h3>Tecnologia</h3>
+            <p>Preço: De R$ 2,00 até R$ 10,00</p>
+        </div> 
+
+      
+    </section>
+
+    <section id="opcoesProduto">
+        <h2 id="produtoTitulo"></h2>
+        <div id="opcoesContainer"></div>
+        <button id="voltarProdutos">Voltar</button>
+    </section>
+    
+    <section id="carrinho">
+        <h3>Carrinho de Compras</h3>
+        <ul id="carrinhoItens"></ul>
+        <p id="totalCarrinho">Total: R$ 0,00</p>
+    </section>
+    
+    <section id="endereco">
+        <h3>Endereço de Entrega</h3>
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" name="rua" required>
+        <br>
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" required>
+        <br>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" required>
+        <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+        <br>
+    </section>
+
+    <section> 
+        <h1>Pagar Por Pix Logo Abaixo:</h1>
+    </section>
+   
+    
+
+
+<!-- Seção Principal -->
+<main>
+    <!-- Outras seções como 'produtos', 'sobre', etc. -->
+    <section id="formaPagamento">
+        <h2>Pagamento via Pix</h2>
+
+        <div id="pagamentos">
+            <!-- Conteúdo da seção de pagamentos -->
+        </div>
+
+        <!-- Formulário para Pix -->
+        <form id="pagamentoPixForm">
+            <p>Chave Pix: <strong>papelaria@virtual.com.br</strong></p>
+            <p>Escaneie o QR code abaixo com seu app bancário para realizar o pagamento:</p>
+            <img src="img/pix.png" alt="QR code para pagamento via Pix">
+            <button type="submit">Confirmar Pagamento</button>
+
+    <section id="sobre">
+        <h2>Sobre Nós:</h2>
+        <p>Somos uma loja dedicada a oferecer os melhores produtos escolares a preços acessíveis. Nosso objetivo é garantir que todos tenham acesso aos materiais necessários para sua educação e desenvolvimento.</p>
+        <h2>Quem Somos:</h2>
+        <p>A Papelaria Digital foi criada por três amigas: <strong>Laysla, Raíssa e Cristina</strong>. Unidas pelo amor à educação e a vontade de fazer a diferença, decidimos criar uma loja online que proporcionasse praticidade, qualidade e economia para nossos clientes. Acreditamos que o acesso a material escolar deve ser simples, rápido e sem complicações.</p>
+        <h2>Nossas Características:</h2>
+        <ul>
+            <li><strong>Variedade:</strong> Contamos com uma ampla gama de produtos escolares para todas as idades e necessidades.</li>
+            <li><strong>Qualidade:</strong> Trabalhamos com marcas renomadas e produtos que garantem a melhor performance no dia a dia escolar.</li>
+            <li><strong>Preço Justo:</strong> Oferecemos preços acessíveis para garantir que todos possam adquirir materiais sem comprometer o orçamento.</li>
+            <li><strong>Compra Online Facilitada:</strong> Nossa plataforma é simples e intuitiva, facilitando a compra de qualquer lugar, a qualquer hora.</li>
+        </ul>
+        <h2>Por que Criamos a Papelaria Digital?</h2>
+        <p>Percebemos que muitas pessoas têm dificuldade em encontrar materiais escolares de qualidade a preços justos, além de não ter tempo para ir até uma loja física. Assim, nós, <strong>Laysla, Raíssa e Cristina</strong>, decidimos criar a Papelaria Digital para tornar a compra de materiais escolares mais acessível e conveniente. Queremos que nossos clientes tenham uma experiência de compra tranquila, segura e, principalmente, com produtos de qualidade e preços justos.</p>
+    </section>
+
+    <section id="horário de Funcionamento">
+        <h2>Horário  de Funcionamento:</h2>
+        <p>Segunda á Sexta: 07h Até 17h</p>
+        <p>Sábados: 07h Até 12h</p>
+
+    <section id="contato">
+        <h2>Contato:</h2>
+        <p>Entre em contato conosco para mais informações.</p>
+        <p> Email: <strong>papelaria@virtual.com.br</strong></p>
+        <p>Número de Telefone/WhatsApp: <strong> 11 94172-4289</strong></p>
+
+         <!-- Botão para voltar ao início -->
+   <section id="button">
+    <h2>
+     <button type="button" id="voltarInicio"><p>Voltar para o início</p></button>
+ </h2>
+     </section>
+    </section>
+</main>
+
+
+</script>
+
+<!-- Rodapé -->
+<footer>
+    <p>&copy; 2024 Loja de Material Escolar. Todos os direitos reservados.</p>
+</footer>
+<script src="js/escola2.js"></script>
+</body>
+</html>
