@@ -1,0 +1,233 @@
+/* Resetando o estilo básico do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #00796b;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#home h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #00796b;
+}
+
+#home p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #004d40;
+}
+
+#produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.produto {
+    background-color: #00796b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.produto h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.produto p {
+    font-size: 1.2em;
+    color: #b2dfdb;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+    background-color: #004d40;
+}
+
+#opcoesProduto {
+    display: none;
+    padding: 20px;
+    background-color: #00796b;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+#opcoesProduto h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.opcao {
+    background-color: #004d40;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.opcao h3 {
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.opcao p {
+    font-size: 1.2em;
+}
+
+#voltarProdutos {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #004d40;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#voltarProdutos:hover {
+    background-color: #00251a;
+}
+
+#formaPagamento {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #00796b;
+    color: #fff;
+    border-radius: 8px;
+}
+
+#formaPagamento h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#pagamentoPixForm {
+    display: grid;
+    grid-gap: 15px;
+    margin-top: 20px;
+}
+
+#pagamentoPixForm p {
+    font-size: 1.2em;
+}
+
+#pagamentoPixForm button {
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #004d40;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#pagamentoPixForm button:hover {
+    background-color: #00251a;
+}
+
+#pagamentoPixForm img {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    display: block;
+}
+#carrinho {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #00796b;
+    color: #fff;
+    border-radius: 8px;
+}
+#endereco {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #00796b;
+    color: #fff;
+    border-radius: 8px;
+}
+#button {
+    margin-top: 40px;
+    padding: 0px;
+    background-color: #00796b;
+    color: #fff;
+    border-radius: 9px;
+}
+#button2 {
+    margin-top: 40px;
+    padding: 0px;
+    background-color: #00796b;
+    color: #fff;
+    border-radius: 9px;
+}
+html {
+    scroll-behavior: smooth;
+  }
